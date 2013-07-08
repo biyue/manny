@@ -46,6 +46,7 @@ body {
 
 .head {
     width: 100%;
+    min-width:1000px;
     position: fixed;
     top: 0;
     z-index: 11;
@@ -67,10 +68,10 @@ body {
 .inp-text {
     float: left;
     height: 28px;
-    width: 420px;
+    width: 40%;
     line-height: 28px;
     text-indent: 2px;
-    margin: 0 20px 0 200px;
+    margin: 0 20px 0 10%;
     color: #333;
     font-size: 14px;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
@@ -112,6 +113,7 @@ body {
     position: fixed;
     left: 0;
     top: 0;
+    z-index:5;
     width: 160px;
     height: 100%;
     padding-right: 10px;
@@ -132,7 +134,7 @@ body {
 .side-nav {
     position: absolute;
     right: 0;
-    top: 400px;
+    top: 220px;
     background-color: #8485ce;
     color: #484984;
     height: 85px;
@@ -149,7 +151,7 @@ body {
 }
 
 .side-nav:hover {
-    top: 395px;
+    top: 215px;
     padding: 5px 0;
 }
 
@@ -165,7 +167,7 @@ body {
 
 .type-box {
     z-index: 10;
-    padding: 5px 0;
+    padding: 20px 0 0;
     text-align: center;
 }
 
@@ -319,7 +321,7 @@ body {
 }
 
 .mac-box .item {
-    /* 0™6¡§0†30“4150…80™6¡Ý„0²40…10ˆ2 */
+    /* ï¿½0ï¿½6ï¿½ï¿½ï¿½0ï¿½3ï¿½0ï¿½415ï¿½0ï¿½8ï¿½0ï¿½6ï¿½Ý„0ï¿½4ï¿½0ï¿½1ï¿½0ï¿½2 */
     height: 568px;
     width: 948px;
     background: url(http://img03.taobaocdn.com/tps/i3/T1U.tkFkFbXXckxCEg-948-568.jpg) no-repeat;
